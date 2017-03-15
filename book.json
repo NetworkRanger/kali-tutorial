@@ -1,0 +1,124 @@
+{
+	"title": "Kali渗透笔记",
+	"author" : "网络游侠",
+	"description" : "网络游侠的Kali渗透笔记",
+	"plugins": [
+		"mermaid",
+		"anchors",
+		"anchor-navigation-ex",
+		"theme-comscore",
+		"codeblock-filename",
+		"ace",
+		"sectionx",
+		"toggle-chapters",
+		"-highlight",
+		"prism",
+		"prism-themes",
+		"splitter",
+		"-lunr",
+		"-search",
+		"search-pro",
+		"duoshuo",
+		"multipart",
+		"tbfed-pagefooter",
+		"-sharing",
+		"expandable-chapters-small",
+		"github-buttons",
+		"advanced-emoji",
+		"github",
+		"emphasize",
+		"katex",
+		"ga",
+		"local-video",
+		"simple-page-toc",
+		"edit-link",
+		"sitemap-general",
+		"todo",
+		"bootstrap-callout"
+	],
+	"pluginsConfig": {
+		"edit-link": {
+			"base": "https://github.com/networkranger/Kali渗透笔记/edit/BRANCH",
+			"label": "编辑本页"
+		},
+		"sitemap-general": {
+			"prefix": "http://iphpjs.com"
+		},
+		"anchor-navigation-ex": {
+			"isRewritePageTitle": true,
+			"isShowTocTitleIcon": true,
+			"tocLevel1Icon": "fa fa-hand-o-right",
+			"tocLevel2Icon": "fa fa-hand-o-right",
+			"tocLevel3Icon": "fa fa-hand-o-right"
+		},
+		"simple-page-toc": {
+			"maxDepth": 3,
+			"skipFirstH1": true
+		},
+		"ga": {
+			"token": "UA-XXXX-Y"
+		},
+		"github": {
+			"url": "https://github.com/networkranger"
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy;2017 IPHPJS论坛 | http://book.iphpjs.com All Rights Reserved.",
+			"modify_label": "本书修订于:",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"duoshuo": {
+			"short_name":"Kali渗透",
+			"theme": "default"
+		},
+		"sharing": {
+			"weibo": true,
+			"facebook": true,
+			"twitter": true,
+			"google": false,
+			"instapaper": false,
+			"vk": false,
+			"all": [
+				"facebook", "google", "twitter",
+				"weibo", "instapaper"
+			]
+		},
+		"github-buttons": {
+			"repo": "networkranger/",
+			"types": [
+				"star",
+				"watch",
+				"fork"
+			],
+			"size": "small"
+		},
+		"sectionx": {
+			"tag": "b"
+		},
+		"prism": {
+			"css": [
+				"prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+			]
+		},
+		"search-pro": {
+			"cutWordLib": "nodejieba",
+			"defineWord" : ["Gitbook Use"]
+		}
+	},
+	"language" : "zh-hans",
+	"links": {
+		"sidebar": {
+			"个人网站": "http://iphpjs.com"
+		}
+	},
+	"pdf": {
+		"pageNumbers": true,
+		"fontSize": 12,
+		"paperSize": "a4",
+		"margin": {
+			"right": 62,
+			"left": 62,
+			"top": 36,
+			"bottom": 36
+		}
+	}
+}
